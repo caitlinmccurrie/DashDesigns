@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Dash | Profile</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <!--link rel="stylesheet" href="css/hacked.css"-->
+    <link rel="stylesheet" href="css/hacked.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/UI/Dash Logo White.png">
+            </div>
+            <ul class="navbar-list">
+                <li class="navbar-item"><a class="navbar-link" href="project.html">Projects</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="tasks.html">Tasks</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="team.html">Team</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="skills.html">Skills</a></li>
+            </ul>
+            <div class="login">
+                <a href="profile.html" class="user"><img src="images/avatar-image.png" width="30"/>
+              <div><strong>Store Manager</strong></div>
+              <span>Andrew</span>
+              </a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="profile.html">Dashboard</a></li>
+                <li>Andrew</li>
+            </ol>
+        </div>
+        <div class="row">
+            <div class="six columns">
+                <h1>Andrew</h1>
+            </div>
+            <div class="six columns">
+            </div>
+        </div>
+        <div class="row">
+            <div class="three columns">
+                <ol class="subnav">
+                    <li class=""><a href="profile.html" class="active">Your Account</a></li>
+                    <li class=""><a href="my-skills.html">Your Skills</a></li>
+                    <li class=""><a href="#">Help</a></li>
+                    <li class=""><a href="#">Sign Out</a></li>
+                </ol>
+            </div>
+            <div class="nine columns">
+                <form class="form-wide">
+                <legend>Avatar</legend>
+                <div class="row">
+                    <div class="three columns">
+
+                        <a href="#" class="avatar">
+                        <img src="images/avatar-image.png" width="94">
+                    </a>
+                    </div>
+                    <div class="nine columns">
+                        <label>Profile Photo (Max size of 800kb)</label>
+                        <p class="label" style="margin-bottom:10px;">Image dimensions are 400x400 pixels in JPG, GIF or PNG.</p>
+                        <p><a class="button-secondary small" href="#">Update</a></p>
+                    </div>
+                </div>
+                <hr>
+                <legend>Profile</legend>
+                <div class="box">
+                    <label>Your name</label>
+                    <input type="text" value="Andrew Owens">
+                </div>
+                <div class="box">
+                    <label>Your email</label>
+                    <input type="text" class="" disabled value="andrewowens@gmail.com">
+                </div>
+                <div class="box">
+                    <label>Your company name</label>
+                    <input type="text" class="" disabled value="Enterprise">
+                </div>
+                <div class="box">
+                    <label>Your job title</label>
+                    <input type="text" value="Store Manager">
+                </div>
+                <hr>
+                <legend>Password</legend>
+                <div class="box">
+                    <label>Current password <a href="#" class="add-email">Show</a></label>
+                    <div class="errorbox"><input type="text" class="error">
+                        <span>Oops. You did something wrong.</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <label>New password <span>(must be 8 or more characters)</span> <a href="#" class="add-email">Show</a></label>
+                    <input type="text">
+                </div>
+                <div class="box">
+                    <label>Confirm password <a href="#" class="add-email">Show</a></label>
+                    <input type="text">
+                </div>
+                <hr>
+                <div class="box">
+                    <input class="button-primary" type="submit" value="Save Changes">
+                </div>
+            </form>
+        </div>
+        </div>
+</body>
+
+</html>

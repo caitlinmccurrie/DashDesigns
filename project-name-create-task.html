@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Dash | Projects</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/hacked.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/UI/Dash Logo White.png">
+            </div>
+            <ul class="navbar-list">
+                <li class="navbar-item"><a class="navbar-link" href="project.html">Projects</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="tasks.html">Tasks</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="team.html">Team</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="skills.html">Skills</a></li>
+            </ul>
+            <div class="login">
+                <a href="profile.html" class="user"><img src="images/avatar-image.png" width="30"/>
+              <div><strong>Store Manager</strong></div>
+              <span>Andrew</span>
+              </a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="project-name.html">Project Name</a></li>
+                <li>Create New Task</li>
+            </ol>
+        </div>
+        <div class="row">
+            <form class="form-wide" style="float:left;">
+                <legend>New Task for Project Name</legend>
+                <div class="box">
+                    <label>Task name</label>
+                    <input type="text" autofocus>
+                </div>
+                <div class="row">
+                    <label>Start Date &amp; Time</label>
+                    <input type="text" class="input-date" value="7 Nov 2017">
+                    <input type="text" class="input-time" value="09:00"> <span class="to">to</span>
+                    <input type="text" class="input-date" value="7 Nov 2017">
+                    <input type="text" class="input-time" value="14:00">
+                </div>
+                <div class="row">
+                    <label>&nbsp;</label>
+                </div>
+                <div class="row">
+                    <div class="two columns">
+
+                        <label class="checkbox">
+                        <input type="checkbox" class="checkbox-custom" checked>
+                        <span class="checkbox-custom-label">All day</span>
+                    </label>
+                    </div>
+                    <div class="ten columns">
+                        <select name="repeat">
+                        <option value="dontrepeat">Don't repeat</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="box">
+                    <label>Skills</label>
+                    <label class="checkbox">
+                        <input type="checkbox" class="checkbox-custom">
+                        <span class="checkbox-custom-label">Picking/packing</span>
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" class="checkbox-custom">
+                        <span class="checkbox-custom-label">Picking/packing</span>
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" class="checkbox-custom">
+                        <span class="checkbox-custom-label">Picking/packing</span>
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" class="checkbox-custom">
+                        <span class="checkbox-custom-label">Picking/packing</span>
+                    </label>
+                </div>
+                <div class="box">
+                    <label>Description</label>
+                    <textarea type="text"></textarea>
+                </div>
+
+                <hr>
+                <div class="row">
+                    <input class="button-primary" type="submit" value="Create Task">
+                </div>
+            </form>
+        </div>
+
+</body>
+
+</html>
